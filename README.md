@@ -25,7 +25,8 @@ The project is created with:
 ## Installation and Run
 
 The application can be run run directly as python script. 
-Python 3.6 or higher version must be installed in the local system.
+Python 3.6 or higher version must be installed in the local system. \
+Set API Key in the variable API_KEY in 'config.py' file.
 
 ```bash
 $ pip install -r requirements.txt
