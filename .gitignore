@@ -1,0 +1,26 @@
+# IDE
+.idea
+.project
+.pydevproject
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# PyInstaller
+*.manifest
+
+# App logs
+*.log
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Databases
+*.db
