@@ -1,6 +1,6 @@
 """definition for project parameters"""
 
-API_KEY = ""  # secret private API
+API_KEY = "3006679821008e41eba646e364eda5a4"  # secret private API
 DB_NAME = "weather"
 RAW_DATA_TABLE = 'RAW'
 DATASET1 = 'DATASET1'
