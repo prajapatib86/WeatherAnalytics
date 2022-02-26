@@ -43,9 +43,9 @@ $ docker-compose up
 
 1. Clone the project from Github.
 
-git clone <repository-url>  \
+git clone <repository-url>  
 
-example :  \
+example :  
 ```
 git clone https://github.com/prajapatib86/WeatherAnalytics.git
 
