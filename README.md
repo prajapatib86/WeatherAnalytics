@@ -32,47 +32,47 @@ $ docker-compose up
 
 ## How to run in Docker
 
-1. Clone the project from Github.
-```
-git clone <repository-url>  
-```
-example :  
-```
-git clone https://github.com/prajapatib86/WeatherAnalytics.git
+1.  Clone the project from Github.
+    ```
+    git clone <repository-url>  
+    ```
+    example :  
+    ```
+    git clone https://github.com/prajapatib86/WeatherAnalytics.git
+    
+    ```
 
-```
+2.  Make the project directory 'WeatherAnalytics' as your present working directory.  \
+    cd WeatherAnalytics
 
-2. Make the project directory 'WeatherAnalytics' as your present working directory.  \
-   cd WeatherAnalytics
+3.  Set API Key in the variable API_KEY in 'config.py' file. \
+    API_KEY=""
 
-3. Set API Key in the variable API_KEY in 'config.py' file. \
-   API_KEY=""
-
-   Example: in your docker shell \
-   ls -l \
-   vim config.py \
+    Example: in your docker shell \
+    ls -l \
+    vim config.py \
    
-   Get your API Key from https://home.openweathermap.org/api_keys
+    Get your API Key from https://home.openweathermap.org/api_keys
 
-4. Run below command to build image and run the app in container.
-```
-$ docker-compose up
-```
+4.  Run below command to build image and run the app in container.
+    ```
+    $ docker-compose up
+    ```
 
-5. The app will run and store data in SQLite Database 'weather.db' that will get created inside 'SQLiteDB' directory in project directory.
+5.  The app will run and store data in SQLite Database 'weather.db' that will get created inside 'SQLiteDB' directory in project directory.
 
-6. Extracts of data from this Database tables will also be generated as csv files inside 'SQLiteDB' directory.
+6.  Extracts of data from this Database tables will also be generated as csv files inside 'SQLiteDB' directory.
 
-7. Application logs (files with extension .log) will be generated inside 'logs' directory in project directory.
+7.  Application logs (files with extension .log) will be generated inside 'logs' directory in project directory.
 
-8. For fetching data for a different location\city, update or add Name, Latitude and Longitude of the location in LAT_LONG variable (python dict).
+8.  For fetching data for a different location\city, update or add Name, Latitude and Longitude of the location in LAT_LONG variable (python dict).
 
-9. For changing to a different unit for Temperature, update value in TEMP_UNIT variable, currently set as 'metric' for getting temperature in Celsius.
+9.  For changing to a different unit for Temperature, update value in TEMP_UNIT variable, currently set as 'metric' for getting temperature in   Celsius.
 
 10. After done with the changes, to rebuild the image and run the app, use the below command.
-```
-$ docker-compose up --build
-```
+    ```
+    $ docker-compose up --build
+    ```
 
 ## Author 
 
