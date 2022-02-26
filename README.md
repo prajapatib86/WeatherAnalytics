@@ -38,8 +38,7 @@ $ docker-compose up
     ```
     example :  
     ```
-    git clone https://github.com/prajapatib86/WeatherAnalytics.git
-    
+    git clone https://github.com/prajapatib86/WeatherAnalytics.git    
     ```
 
 2.  Make the project directory 'WeatherAnalytics' as your present working directory.  \
