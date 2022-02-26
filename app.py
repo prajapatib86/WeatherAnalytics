@@ -51,9 +51,10 @@ if __name__ == "__main__":
         print("sending requests to OpenWeather API ...")
         logger.info("sending requests to OpenWeather API ...")
         weather_data_list = []
+        current_time = datetime.datetime.utcnow()
         for location, lat_long in LAT_LONG.items():
             for nday in range(0, 5):
-                date = datetime.datetime.utcnow() - datetime.timedelta(nday)
+                date = current_time - datetime.timedelta(nday)
                 utc_time = calendar.timegm(date.utctimetuple())
                 DATE_TIMESTAMP = utc_time  # Date from the previous five days (Unix time, UTC time zone)
                 # full URL
