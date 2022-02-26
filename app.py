@@ -114,7 +114,7 @@ if __name__ == "__main__":
             cursor.execute(CREATE_DATASET2_QUERY)
             logger.info(f"table '{DATASET2}' created")
             connection.commit()
-            logger.info(f"SQLite DB created at: {DB_DIR_PATH}/{DB_NAME}.db")
+            logger.info(f"SQLite DB available at: {DB_DIR_PATH}/{DB_NAME}.db")
             print(f"SQLite DB available at: {REPLICATED_DB_DIR_PATH}/{DB_NAME}.db")
             extract_db_data(connection, logger,
                             [f'{RAW_DATA_TABLE}', f'{DATASET1}', f'{DATASET2}'])  # extract data from DB tables
