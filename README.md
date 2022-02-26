@@ -23,18 +23,9 @@ The project is created with:
 * SQLite
 
 ## Installation and Run
+ 
+The application is to run in a docker container as Python script.
 
-The application can be run run directly as python script. 
-Python 3.6 or higher version must be installed in the local system. \
-Set API Key in the variable API_KEY in 'config.py' file.
-
-```bash
-$ pip install -r requirements.txt
-
-$ python app.py
-```
-
-The application can also be run in docker container.
 ```
 $ docker-compose up
 ```
@@ -51,16 +42,17 @@ git clone https://github.com/prajapatib86/WeatherAnalytics.git
 
 ```
 
-2. Move to project directory 'WeatherAnalytics'.  \
-cd WeatherAnalytics
+2. Make the project directory 'WeatherAnalytics' as your present working directory.  \
+   cd WeatherAnalytics
 
 3. Set API Key in the variable API_KEY in 'config.py' file. \
-     API_KEY=""
+   API_KEY=""
 
-Example: in your docker shell \
-ls -l \
-vim config.py \
-Insert API key in here (from https://home.openweathermap.org/api_keys)
+   Example: in your docker shell \
+   ls -l \
+   vim config.py \
+   
+   Get your API Key from https://home.openweathermap.org/api_keys
 
 4. Run below command to build image and run the app in container.
 ```
