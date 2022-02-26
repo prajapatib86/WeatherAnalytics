@@ -57,6 +57,11 @@ cd WeatherAnalytics
 3. Set API Key in the variable API_KEY in 'config.py' file. \
      API_KEY=""
 
+Example: in your docker shell
+ls -l
+vim config.py
+Insert API key in here (from https://home.openweathermap.org/api_keys)
+
 4. Run below command to build image and run the app in container.
 ```
 $ docker-compose up
