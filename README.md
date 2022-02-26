@@ -42,9 +42,9 @@ $ docker-compose up
 ## How to run in Docker
 
 1. Clone the project from Github.
-
+```
 git clone <repository-url>  
-
+```
 example :  
 ```
 git clone https://github.com/prajapatib86/WeatherAnalytics.git
