@@ -47,6 +47,7 @@ git clone <repository-url>
 ```
 
 2. Move to project directory 'WeatherAnalytics'.
+cd WeatherAnalytics
 
 3. Set API Key in the variable API_KEY in 'config.py' file. \
      API_KEY=""
