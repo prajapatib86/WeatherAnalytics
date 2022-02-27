@@ -26,6 +26,8 @@ The project is created with:
  
 The application is to run in a docker container as Python script.
 
+Docker Lab  https://labs.play-with-docker.com/#  \
+
 ```
 $ docker-compose up
 ```
